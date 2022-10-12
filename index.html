@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Documentation</title>
+    <link href="styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- NAVIGATION MENU-->
+    <nav id="navbar">
+      <header id="nav-header">HTML Documentation</header>
+      <ul>
+        <li><a href="#overview" class="nav-link">Overview</a></li>
+        <li><a href="#the-basics" class="nav-link">The Basics</a></li>
+        <li><a href="#common" class="nav-link">Common Elements</a></li>
+        <li><a href="#semantic-html" class="nav-link">Semantic Elements</a></li>
+      </ul>
+    </nav>
+
+    <main id="main-doc">
+      <!-- INTRODUCTION -->
+      <section class="main-section" id="overview">
+        <header>Overview</header>
+        <article>
+          <p>
+            <strong>HTML(Hyper Text Markup Language)</strong> Serves as the
+            building blocks or the skeleton of all web pages. It provides
+            structure to the content on a website, including text, images,
+            buttons, videos, forms and more.
+          </p>
+          <p>
+            When working with HTML, it is common to see the following structure
+            or pattern when creating the webpages structure.
+          </p>
+          <ul>
+            <li>
+              <strong>HTML Element:</strong> Is a unit of content in an HTML
+              document formed by HTML tags and the text or media it contains.
+            </li>
+            <li>
+              <strong>The Opening Tag:</strong> The element name used to start
+              an HTML element. The tag type is surrounded by opening and closing
+              angle brackets
+            </li>
+            <li>
+              <strong>The Content:</strong> The information (text or other
+              elements) contained between the opening and closing tags of an
+              HTML element.
+            </li>
+            <li>
+              <strong>The Closing Tag:</strong> The second HTML tag used to end
+              an HTML element. Closing tags have a forward slash (/) inside of
+              them, directly after the left angle bracket.
+            </li>
+          </ul>
+          <p>
+            <strong><em>See the below example:</em></strong>
+          </p>
+          <img
+            src="resources/images/HTML element structure.png"
+            alt="HTML Element Structure"
+            height="200px"
+            width="400px"
+          />
+        </article>
+      </section>
+
+      <!-- THE BASICS -->
+      <section class="main-section" id="the-basics">
+        <header>The Basics</header>
+        <article>
+          <p>
+            <strong>&lt;!DOCTYPE html&gt;:</strong> HTML files require certain
+            elements to set up the document properly. We can let web browsers
+            know that we are using HTML by starting our document with a document
+            type declaration.This declaration is an instruction, and it must be
+            the first line of code in your HTML document. It tells the browser
+            what type of document to expect, along with what version of HTML is
+            being used in the document. When saving documents as HTML files the
+            files will need to have an extension like so: filename.html
+          </p>
+
+          <p>
+            <strong>The &lt;html&gt; Tag:</strong> To create HTML structure and
+            content, we must add opening and closing &lt;html&gt; tags after
+            declaring &lt;!DOCTYPE html&gt;.Anything between the opening
+            &lt;html&gt; and closing &lt;/html&gt; tags will be interpreted as
+            HTML code. Without these tags, it’s possible that browsers could
+            incorrectly interpret your HTML code.
+          </p>
+
+          <p>
+            <strong>The &lt;head&gt; Element:</strong> The &lt;head&gt; element
+            contains the metadata for a web page. Metadata is information about
+            the page that isn’t displayed directly on the web page. Unlike the
+            information inside of the &lt;body&gt; tag, the metadata in the head
+            is information about the page itself.The &lt;head&gt; element is
+            nested directly after your opening &lt;html&gt; tag.
+          </p>
+
+          <p>
+            <strong>The &lt;meta&gt; Element:</strong> The &lt;meta&gt; element
+            is used within the &lt;head&gt; element to store relevant data
+            information about your page. It is typically used to specify
+            character set, page description, keywords, author of the document,
+            and viewport settings.
+          </p>
+
+          <p>
+            <strong>The &lt;title&gt; Element:</strong> Is the name of your
+            webpage. A common place to see this in action is on the tab of your
+            browser's webpage. These tags must always be nested within the
+            &lt;head&gt; tag.
+          </p>
+
+          <p>
+            <strong>The &lt;link&gt; Element:</strong> The link element allows
+            us to link to files outside of our .html file. For example you can
+            use the &lt;link&gt; tag to link to a CSS stylesheet.
+          </p>
+
+          <p>
+            <strong>The &lt;body&gt; Element: </strong>Only content inside the
+            opening and closing body tags can be displayed to the screen.Once
+            the file has a body, many different types of content including text,
+            images, and buttons can be added to the body.
+          </p>
+
+          <p>
+            <strong>The HTML Structure:</strong> HTML is organized as a family
+            tree, or if you prefer, containers. When an element is contained
+            inside another element, it is considered the child of that element.
+            The child element is said to be nested inside of the parent element.
+            Since there can be multiple levels of nesting, this analogy can be
+            extended to grandchildren, great-grandchildren, and beyond. The
+            relationship between elements and their ancestor and descendent
+            elements is known as a hierarchy.
+          </p>
+
+          <aside>
+            ** For readability in your code, it is best to add two spaces of
+            indentation using your space bar to reflect the container or
+            hierarchy. Understanding HTML hierarchy is important because child
+            elements can inherit behavior and styling from their parent element
+            when you begin using CSS to style your page. **
+          </aside>
+
+          <p>
+            <strong><em>See the below example:</em></strong> In this example the
+            &lt;body&gt; element is the parent of the &lt;div&gt; element. Both
+            the &lt;h1&gt; and &lt;p&gt; elements are children of the
+            &lt;div&gt; element. Because the &lt;h1&gt; and &lt;p&gt; elements
+            are at the same level, they are considered siblings and are both
+            grandchildren of the &lt;body&gt; element.
+          </p>
+          <img
+            src="resources/images/HTML Boiler-plate.png"
+            alt="An HTML Heirarchy"
+            width="450px"
+            height="250px"
+          />
+        </article>
+      </section>
+
+      <section class="main-section" id="common">
+        <header>Common HTML Elements</header>
+        <article>
+          <p></p>
+          <p></p>
+        </article>
+      </section>
+
+      <section class="main-section" id="semantic-html">
+        <header>Semantic HTML Elements</header>
+        <article></article>
+        <p></p>
+        <p></p>
+      </section>
+
+      <section class="main-section" id="reference">
+        <header>Reference</header>
+        <article>
+          <ul>
+            <li>
+              All the documentation in this page is taken from
+              <a
+                href="https://www.codecademy.com"
+                target="_blank"
+                >CodeCademy's Introduction to HTML Course</a
+              >
+            </li>
+          </ul>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>
