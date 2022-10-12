@@ -50,6 +50,7 @@ To do:
 ## Acknowledgements
 Give credit here.
 - Inpsiration from FreeCodeCamp at www.freecodecamp.org
+- Information provided by Codecademy at www.codecademy.com
 
 
 ## Contact
